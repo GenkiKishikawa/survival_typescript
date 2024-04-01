@@ -1,0 +1,8 @@
+version: '3'
+services:
+  typescript:
+    image: node:16
+    working_dir: /src
+    volumes:
+      - .:/src
+    entrypoint: "/bin/bash -c 'yarn install && tail -f /dev/null'"
