@@ -1,0 +1,14 @@
+{
+	"name": "typescript",
+	"dockerComposeFile": "../docker-compose.yaml",
+	"service": "typescript",
+	"workspaceFolder": "/src",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"dbaeumer.vscode-eslint",
+				"esbenp.prettier-vscode"
+			]
+		}
+	}
+}
